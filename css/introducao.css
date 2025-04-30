@@ -1,3 +1,12 @@
+.container {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+}
+
 .introducao {
   max-width: 1200px;
   padding: 40px 20px;
@@ -58,6 +67,9 @@
     grid-template-columns: 1fr;
   }
   .introducao img {
-    display: none;
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
   }
 }
